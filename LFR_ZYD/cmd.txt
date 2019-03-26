@@ -1,0 +1,2 @@
+
+python LFRMain.py ./path_src/粤SG0239.txt -m
