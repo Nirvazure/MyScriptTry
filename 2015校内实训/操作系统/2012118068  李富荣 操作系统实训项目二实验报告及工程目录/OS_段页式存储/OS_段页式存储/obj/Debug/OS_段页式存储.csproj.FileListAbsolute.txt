@@ -1,0 +1,9 @@
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\bin\Debug\OS_段页式存储.exe.config
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\obj\Debug\OS_段页式存储.csprojResolveAssemblyReference.cache
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\obj\Debug\OS_段页式存储.Form1.resources
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\obj\Debug\OS_段页式存储.Properties.Resources.resources
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\obj\Debug\OS_段页式存储.csproj.GenerateResource.Cache
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\bin\Debug\OS_段页式存储.exe
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\bin\Debug\OS_段页式存储.pdb
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\obj\Debug\OS_段页式存储.exe
+G:\VS2013 WorkSpace\OS_段页式存储\OS_段页式存储\obj\Debug\OS_段页式存储.pdb

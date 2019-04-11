@@ -1,0 +1,120 @@
+********************************************************************
+  2     created:    2014/01/05
+  3     created:    22:01
+  4     file base:    main
+  5     file ext:    cpp
+  6     author:        Justme0 (http://blog.csdn.net/Justme0)
+  7     
+  8     purpose:    求两个等长的有序序列的中位数，时间复杂度O(log(n))
+  9 *********************************************************************/
+ 10 
+ 11 #define _CRT_SECURE_NO_WARNINGS
+ 12 #include <iostream>
+ 13 #include <vector>
+ 14 #include <cassert>
+ 15 #include <algorithm>
+ 16 using namespace std;
+ 17 
+ 18 template <class Iterator>
+ 19 Iterator search_middle(Iterator begin1, Iterator end1, Iterator begin2) {
+ 20     while (begin1 + 1 != end1) {
+ 21         int len = end1 - begin1;
+ 22         int m = (len - 1) / 2;    // m 是中位数的下标
+ 23         bool is_odd = (len % 2 == 1);
+ 24 
+ 25         if (begin1[m] < begin2[m]) {
+ 26             if (is_odd) {
+ 27                 begin1 += m;
+ 28             } else {
+ 29                 begin1 += m + 1;
+ 30             }
+ 31         } else if (begin2[m] < begin1[m]) {
+ 32             if (is_odd) {
+ 33                 begin2 += m;
+ 34                 end1 -= m;
+ 35             } else {
+ 36                 begin2 += m + 1;
+ 37                 end1 -= m + 1;
+ 38             }
+ 39         } else {
+ 40             return begin1 + m;
+ 41         }
+ 42     }
+ 43 
+ 44     return *begin1 < *begin2 ? begin1 : begin2;
+ 45 }
+ 46 
+ 47 void input(vector<int> &v, int len) {
+ 48     for (int i = 0; i < len; ++i) {
+ 49         int elem;
+ 50         cin >> elem;
+ 51         v.push_back(elem);
+ 52     }
+ 53 }
+ 54 
+ 55 void output(vector<int> &v) {
+ 56     for (vector<int>::iterator it = v.begin(); it != v.end(); ++it) {
+ 57         cout << *it << " ";
+ 58     }
+ 59     cout << endl;
+ 60 }
+ 61 
+ 62 int main(int argc, char **argv) {
+ 63     freopen("cin.txt", "r", stdin);
+ 64 
+ 65     int len;
+ 66     while (cin >> len) {
+ 67         vector<int> v1, v2;
+ 68         input(v1, len);
+ 69         input(v2, len);
+ 70 
+ 71         vector<int> v3(v1.size() * 2);
+ 72         merge(v1.begin(), v1.end(), v2.begin(), v2.end(), v3.begin());
+ 73         int b = v3[(v3.size() - 1) / 2];
+ 74 
+ 75         int a = *search_middle(v1.begin(), v1.end(), v2.begin());
+ 76         assert(a == b);
+ 77         cout << a << " " << b << endl;
+ 78         if(a != b) {
+ 79             output(v3);
+ 80             cout << "a=" << a << endl;
+ 81             cout << "b=" << b << endl;
+ 82         }
+ 83     }
+ 84 
+ 85     return 0;
+ 86 }
+ 87 
+ 88 /* cin.txt
+ 89 1
+ 90 1
+ 91 0
+ 92 
+ 93 1
+ 94 -3
+ 95 3
+ 96 
+ 97 2
+ 98 1 2
+ 99 2 3
+100 
+101 3
+102 0 5 6
+103 2 2 2
+104 
+105 4
+106 1 2 3 4
+107 6 7 8 9
+108 
+109 4
+110 1 2 6 7
+111 3 4 5 6
+112 
+113 5
+114 12 22 222 333 3333
+115 10 13 44 55 66
+116 
+117 10
+118 3 3 22 34 44 333 2222 11111 11112 11113
+119 -5 -4 0 1 444 4444 44444 44445 444444 444445
+120 */
