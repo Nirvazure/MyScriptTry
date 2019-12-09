@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Storage</title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>  
+        <script>
+            if(localStorage.pagecount){
+                localStorage.pagecount=Number(localStorage.pagecount)+1;
+            }else{
+                localStorage.pagecount=1
+            }
+            document.write("总访问数：<br/>"+localStorage.pagecount);
+            if(sessionStorage.pagecount){
+                sessionStorage.pagecount=Number(sessionStorage.pagecount)+1;
+            }else{
+                sessionStorage.pagecount=1;
+            }
+            document.write("<br/>当前会话总访问数：<br/>" + sessionStorage.pagecount);
+        </script>
+    </body>
+</html>

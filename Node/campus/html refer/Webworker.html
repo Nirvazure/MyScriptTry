@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script>
+            var intArray = new Array(200);
+            var intStr = "";
+            for (var i = 0; i < 200; i++) {
+                intArray[i] = parseInt(Math.random() * 200);
+                if (i != 0)
+                    intStr += ";";
+                intStr += intArray[i];
+            }
+            var worker = new Worker("worker.js");
+            worker.postMessage(intStr);
+            //从线程中取得结果
+            worker.onmessage = function (event) {
+                if (event.data != "") {
+                    var j, k, tr, td;
+                    var intArray = event.data.split(";");
+                    var table = document.getElementById("table");
+                    for (var i = 0; i < intArray.length; i++) {
+                        j = parseInt(i / 10, 0);
+                        k = i % 10;
+                        if (k == 0) {
+                            tr = document.createElement("tr");
+                            tr.id = "tr" + j;
+                            table.appendChild(tr);
+                        } else {
+                            tr = document.getElementById("tr" + j);
+                        }
+                        td = document.createElement("td");
+                        tr.appendChild(td);
+                        td.innerHTML = intArray[j * 10 + k];
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <table id="table"></table>
+    </body>
+</html>

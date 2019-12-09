@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>校招助手</title>
+        <meta name="description" content="你的校招管家">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div id="app">
+            {{ message }}
+            <span v-bind:title="message2">
+                鼠标悬停几秒钟查看此处动态绑定的提示信息！
+            </span>
+            <p v-if="seen">现在你看到我了</p>
+            <ol>
+                <li v-for="todo in todos">
+                    {{ todo.text }}
+                </li>
+            </ol>
+            <button v-on:click="reverseMessage">反转消息</button>
+            <input v-model="addItem">
+            <button v-on:click="addNew">加入新的</button>
+            <ol>
+                <!-- 创建一个 todo-item 组件的实例 -->
+                    <todo-item v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id"></todo-item>
+            </ol>
+            <p>
+                Ask a yes/no question:
+                <input v-model="question">
+            </p>
+            <p>{{ answer }}</p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
