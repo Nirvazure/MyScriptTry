@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=zh-CHS>
+    <head>
+        <meta charset=utf-8>
+        <meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name=format-detection content="telephone=no">
+        <meta name=format-detection content="address=no">
+        <title>2019搜狗校招编程题 -  汇率计算器</title>
+    </head>
+    <body>
+        <div class="calculator">
+            <header class="cal-header">汇率计算器</header>
+            <main class="cal-main">
+                <div class="cal-view">
+                    <div class="row origin">
+                        <select class="origin-type">
+                            <option value="USD" selected>美元</option>
+                            <option value="EUR">欧元</option>
+                            <option value="JPY">日元</option>
+                            <option value="CNY">人民币</option>
+                        </select>
+                        <div class="origin-value"></div>
+                    </div>
+                    <div class="row target">
+                        <select class="target-type">
+                            <option value="USD">美元</option>
+                            <option value="EUR">欧元</option>
+                            <option value="JPY">日元</option>
+                            <option value="CNY" selected>人民币</option>
+                        </select>
+                        <div class="target-value"></div>
+                    </div>
+                </div>
+                <div class="cal-keyboard">
+                    <ul class="cal-numList">
+                        <li data-action="num">7</li>
+                        <li data-action="num">8</li>
+                        <li data-action="num">9</li>
+                        <li data-action="num">4</li>
+                        <li data-action="num">5</li>
+                        <li data-action="num">6</li>
+                        <li data-action="num">1</li>
+                        <li data-action="num">2</li>
+                        <li data-action="num">3</li>
+                        <li data-action="num"></li>
+                        <li data-action="num">0</li>
+                        <li data-action="num">.</li>
+                    </ul>
+                    <div class="buttons">
+                        <div class="btn btn-esc" data-action="esc">清空</div>
+                        <div class="btn btn-backspace" data-action="backspace">退格</div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
