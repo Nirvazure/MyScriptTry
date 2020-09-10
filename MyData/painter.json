@@ -1,0 +1,416 @@
+[
+  {
+    "name": "安德烈萨齐",
+    "style": 1,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "拉斐尔",
+    "style": 1,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "达芬奇",
+    "style": 1,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "米开朗琪罗",
+    "style": 1,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "乔尔乔内",
+    "style": 1,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "缇香",
+    "style": 1,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "伦勃朗",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "鲁本斯",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "哈尔斯",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "维米尔",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "委拉斯凯兹",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "卡拉瓦乔",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "普桑",
+    "style": 2,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "安托万让格罗",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "大卫福雷德里希",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "德拉科诺瓦",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "皮埃尔卢梭",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "卡米椰科罗",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "热里科",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "芒特",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "透纳",
+    "style": 3,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "列宾",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "布格罗",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "埃德加德加",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "马奈",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "库尔贝",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "博纳尔",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "米勒",
+    "style": 4,
+    "time": 1,
+    "img": ""
+  },
+  {
+    "name": "雷诺阿",
+    "style": 5,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "毕沙罗",
+    "style": 5,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "莫奈",
+    "style": 5,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "莫里索",
+    "style": 5,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "保罗塞尚",
+    "style": 6,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "高更",
+    "style": 6,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "乔治修拉",
+    "style": 6,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "梵高",
+    "style": 6,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "安德烈德兰",
+    "style": 7,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "马蒂斯",
+    "style": 7,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "科科释卡",
+    "style": 8,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "宝拉贝克",
+    "style": 8,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "基尔希纳",
+    "style": 8,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "弗朗茨马克",
+    "style": 8,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "蒙克",
+    "style": 8,
+    "time": 2,
+    "img": ""
+  },
+  {
+    "name": "蒙德里安",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "保罗克里",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "阿西尔格尔基",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "纽曼",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "波洛克",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "马克思罗斯科",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "德库宁",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "康定斯基",
+    "style": 9,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "基里科",
+    "style": 10,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "德劳奈",
+    "style": 10,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "乔治波拉克",
+    "style": 10,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "巴博罗毕加索",
+    "style": 10,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "达利",
+    "style": 11,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "安德烈马松",
+    "style": 11,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "胡安米罗",
+    "style": 11,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "玛格力特",
+    "style": 11,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "乔治格罗斯",
+    "style": 12,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "马克思恩斯特",
+    "style": 12,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "拉乌尔豪斯曼",
+    "style": 12,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "汉娜霍赫",
+    "style": 12,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "皮卡利亚",
+    "style": 12,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "凯斯哈林",
+    "style": 13,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "爱德华卢莎",
+    "style": 13,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "安迪霍沃尔",
+    "style": 13,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "理查德汉密尔顿",
+    "style": 13,
+    "time": 3,
+    "img": ""
+  },
+  {
+    "name": "罗伊利希滕斯坦",
+    "style": 13,
+    "time": 3,
+    "img": ""
+  }
+]
